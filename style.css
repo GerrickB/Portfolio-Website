@@ -1,0 +1,14 @@
+header {
+  background-color: #0e0e0e;
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+
+header h1 {
+  margin-bottom: 0.1em;
+}
+
+header h2 {
+  margin-top: 0.1em;
+  border-bottom: 1px solid white;
+}
