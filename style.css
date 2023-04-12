@@ -1,7 +1,13 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 header {
   background-color: #0e0e0e;
   color: white;
   font-family: 'Space Mono', monospace;
+  padding: 0.5em;
 }
 
 header h1 {
@@ -34,5 +40,16 @@ nav ul {
 
 nav ul li {
   margin: 0.5em;
+}
+
+.about-me-container {
+  display: flex;
+  padding: 0.5em;
+  background-color:#0e0e0e;
+  color: white;
+}
+
+.about-me-container img {
+  width: 50%;
 }
 
